@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <h1>Formularios</h1>
+        <p>mailto:nfr388@educa.madrid.org.com?subject=tarea_de_marcas</p>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                    <label for="nombre">Nombre (requerido):</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                <br>
+                <br>
+                    <label for="edad">Edad (Solo debe aceptar un numero)</label><br>
+                    <input type="number" id="edad" name="edad">
+
+                <br>
+                <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email">
+
+                <br>
+                <br>
+                    <label for="curso">Curso:</label><br>
+                    <select id="curso" name="curso">
+                        <option value="html" selected>HTML</option>
+                    </select>
+
+                <br>
+                <br>
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+                
+                <br>
+                <br>
+                    <input type="submit" value="Enviar">
+
+            </fieldset>
+        </form>
+        <br>
+        <a href="../index.html">Volver al Índice</a>
+    </body>
+</html>
